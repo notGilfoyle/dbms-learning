@@ -1,0 +1,33 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*~
+
+# Environment / secrets
+.env
+.env.*
+*.local
+
+# Python (if scripts are added later)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Node (if tooling is added later)
+node_modules/
+
+# Database runtime / local data — keep curated dumps, ignore the rest
+*.dump
+*.bak
+pgdata/
+data/
+mongo-data/
+
+# Logs
+*.log
